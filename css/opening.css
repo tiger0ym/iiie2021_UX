@@ -189,10 +189,10 @@ https://qumeru.com/magazine/278
 }
 .arrow-wrapper{
 	position:absolute;
-	width:6vw;
-	height:5vh;
-	left:47vw;
-	top:85vh;
+	width:20vw;
+	height:7vh;
+	left:40vw;
+	top:83vh;
 	/*background: black;*/
 	z-index: 100;
 }
@@ -201,8 +201,8 @@ https://qumeru.com/magazine/278
     width: 2vw;
     height: 2vw;
 	position: relative;
-	top:0%;
-	left:2vw;
+	top:1vh;
+	left:9vw;
     border-top: solid 3px white;
     border-right: solid 3px white;
     -webkit-transform: rotate(135deg);
