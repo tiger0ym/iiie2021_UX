@@ -12,6 +12,13 @@
 </head>
 <body>
 
+  <div class="loader-bg">
+    <div class="loader">
+      <img src="images/loading.gif" width="80" height="80" alt="Now Loading..." />
+      <p>Now Loading...</p>
+    </div>
+  </div>
+
   <div class="shutter"> <!-- ここから -->
     <div class="people">
       <img class="person A moveL" src="images/person3.png">
@@ -39,7 +46,7 @@
         <video class="video-project" src="images/Extra_PV.mp4" autoplay muted playsinline></video>
     </div>
 
-    <div class="arrow-wrapper">
+    <div class="arrow-wrapper" data-id="arrow-wrapper">
       <div class="arrow"></div>
     </div>
 
@@ -191,7 +198,9 @@
 
 
   <!-- <script src="js/vis_audience.js"></script> -->
+  <script src="js/loading.js"></script>
   <script src="js/carousel.js"></script>
   <script src="js/opening.js"></script>
+  
 </body>
 </html>

@@ -1,3 +1,27 @@
+.loader-bg {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
+	z-index: 10000;
+  }
+.loader {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+	text-align: center;
+	color: #fff;
+	z-index: 10001;
+}
+
 .shutter{
     position:fixed;
     top:0;
@@ -207,7 +231,7 @@ https://qumeru.com/magazine/278
     border-right: solid 3px white;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
-	pointer-events: auto;
+	pointer-events: none;
 	/*
 	width: 0;
     height: 0;
