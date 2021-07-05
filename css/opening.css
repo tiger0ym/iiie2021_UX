@@ -6,6 +6,16 @@
 	top: 0px;
 	left: 0px;
 	background: #ffffff;
+	/*
+	background: linear-gradient(
+        135deg,
+        rgb(198, 119, 172) 0%,
+        rgb(153, 138, 173) 25%,
+        rgb(158, 201, 226) 50%,
+        rgb(192, 215, 226) 75%,
+        rgb(237, 249, 252) 100%
+    );
+	*/
 	z-index: 10000;
   }
 .loader {
