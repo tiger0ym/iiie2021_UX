@@ -186,17 +186,27 @@ https://qumeru.com/magazine/278
 	margin:0 auto;
 	padding: auto;
 }
+.arrow-wrapper{
+	position:absolute;
+	width:6vw;
+	height:5vh;
+	left:47vw;
+	top:85vh;
+	/*background: black;*/
+	z-index: 100;
+}
 .arrow{
 	display: block;
     width: 2vw;
     height: 2vw;
 	position: relative;
-	top:-3%;
-	left:34vw;
+	top:0%;
+	left:2vw;
     border-top: solid 3px white;
     border-right: solid 3px white;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
+	pointer-events: auto;
 	/*
 	width: 0;
     height: 0;
