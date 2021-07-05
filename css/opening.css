@@ -70,7 +70,7 @@ https://qumeru.com/magazine/278
 	transition:all 1s;
 	height:3vh;
 	width:60vw;
-	top:84vh;
+	top:calc(55vh + 18vw);
 	position:fixed;
 	z-index: 99;
 }
@@ -80,6 +80,7 @@ https://qumeru.com/magazine/278
 	height:3vh;
 	width:55vw;
 	top:74vh;
+	top:calc(45vh + 18vw);
 	left:55vw;
 	position:fixed;
 	z-index: 97;
@@ -94,7 +95,7 @@ https://qumeru.com/magazine/278
 	position:relative;
 	height:8vh;
 	width:500px;
-	width:30vw;
+	/*width:30vw;*/
 	/*left: -700px;*/
 	padding-top: 1vh;
 	padding-left: 5vw;
