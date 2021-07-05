@@ -110,7 +110,7 @@ https://qumeru.com/magazine/278
 	z-index: 97;
 }
 .click-guideL-wrapper{
-	top:45vh;
+	top:35vh;
 	position:fixed;
 	transition:all 1s;
 	left:-700px;
@@ -130,7 +130,7 @@ https://qumeru.com/magazine/278
 	border-bottom-right-radius: 35px;
 }
 .click-guideR-wrapper{
-	top:35vh;
+	top:25vh;
 	right:-700px;
 	position:fixed;
 	transition:all 1s;
